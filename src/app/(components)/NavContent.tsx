@@ -5,9 +5,9 @@ export default function NavContent({ hoveredItem }: any) {
     <Fragment>
       <div className="bg-[#161617CC]">
         {hoveredItem === "Store" && (
-          <div className="flex  py-4">
+          <div className="flex  py-4 ">
             {/* First Column */}
-            <div className="mt-2 md:mt-4 lg:mt-6 ml:ml">
+            <div className="mt-2 md:mt-4 lg:mt-6 ml-2 md:ml-4 lg:ml-6">
               <p className="text-gray-400">Shop</p>
               <h3 className="text-white text-xl">Mac</h3>
               <h3 className="text-white text-xl">iPad</h3>
@@ -50,6 +50,91 @@ export default function NavContent({ hoveredItem }: any) {
               <h3>Application</h3>
               <h3>iPhone</h3>
               <h3>Apple</h3>
+            </div>
+          </div>
+        )}
+
+        {hoveredItem === "Iphone" && (
+          <div className="flex  py-4">
+            {/* First Column */}
+            <div className="mt-2 md:mt-4 lg:mt-6 ml:ml">
+              <p className="text-gray-400">Shop</p>
+              <h3 className="text-white text-xl">Mac</h3>
+              <h3 className="text-white text-xl">iPad</h3>
+              <h3 className="text-white text-xl">iPhone</h3>
+              <h3 className="text-white text-xl">Apple</h3>
+            </div>
+
+            {/* Second Column */}
+            <div className="mt-2 md:mt-4 lg:mt-6">
+              <p className="text-gray-400">Quick Links</p>
+              <h3 className="text-white text-xl">Find a Store</h3>
+              <h3 className="text-white text-xl">Application</h3>
+              <h3 className="text-white text-xl">iPhone</h3>
+              <h3 className="text-white text-xl">Apple</h3>
+            </div>
+          </div>
+        )}
+        {hoveredItem === "Watch" && (
+          <div className="flex  py-4">
+            {/* First Column */}
+            <div className="mt-2 md:mt-4 lg:mt-6 ml:ml">
+              <p className="text-gray-400">Shop</p>
+              <h3 className="text-white text-xl">Mac</h3>
+              <h3 className="text-white text-xl">iPad</h3>
+              <h3 className="text-white text-xl">iPhone</h3>
+              <h3 className="text-white text-xl">Apple</h3>
+            </div>
+
+            {/* Second Column */}
+            <div className="mt-2 md:mt-4 lg:mt-6">
+              <p className="text-gray-400">Quick Links</p>
+              <h3 className="text-white text-xl">Find a Store</h3>
+              <h3 className="text-white text-xl">Application</h3>
+              <h3 className="text-white text-xl">iPhone</h3>
+              <h3 className="text-white text-xl">Apple</h3>
+            </div>
+          </div>
+        )}
+        {hoveredItem === "Vision" && (
+          <div className="flex  py-4">
+            {/* First Column */}
+            <div className="mt-2 md:mt-4 lg:mt-6 ml:ml">
+              <p className="text-gray-400">Shop</p>
+              <h3 className="text-white text-xl">Mac</h3>
+              <h3 className="text-white text-xl">iPad</h3>
+              <h3 className="text-white text-xl">iPhone</h3>
+              <h3 className="text-white text-xl">Apple</h3>
+            </div>
+
+            {/* Second Column */}
+            <div className="mt-2 md:mt-4 lg:mt-6">
+              <p className="text-gray-400">Quick Links</p>
+              <h3 className="text-white text-xl">Find a Store</h3>
+              <h3 className="text-white text-xl">Application</h3>
+              <h3 className="text-white text-xl">iPhone</h3>
+              <h3 className="text-white text-xl">Apple</h3>
+            </div>
+          </div>
+        )}
+        {hoveredItem === "AirPods" && (
+          <div className="flex  py-4">
+            {/* First Column */}
+            <div className="mt-2 md:mt-4 lg:mt-6 ml:ml">
+              <p className="text-gray-400">Shop</p>
+              <h3 className="text-white text-xl">Mac</h3>
+              <h3 className="text-white text-xl">iPad</h3>
+              <h3 className="text-white text-xl">iPhone</h3>
+              <h3 className="text-white text-xl">Apple</h3>
+            </div>
+
+            {/* Second Column */}
+            <div className="mt-2 md:mt-4 lg:mt-6">
+              <p className="text-gray-400">Quick Links</p>
+              <h3 className="text-white text-xl">Find a Store</h3>
+              <h3 className="text-white text-xl">Application</h3>
+              <h3 className="text-white text-xl">iPhone</h3>
+              <h3 className="text-white text-xl">Apple</h3>
             </div>
           </div>
         )}
