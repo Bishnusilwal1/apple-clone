@@ -4,159 +4,246 @@ import Image from "next/image";
 export default function Products() {
   return (
     <>
-      <div className="grid  md:grid-cols-2 h-screen p-4 gap-4">
+      <div className="grid  md:grid-cols-2 h-screen mt-4 gap-4 ">
         <div className="relative bg-white">
-          {/* Overlay Content */}
-          <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center bg-white">
-            <h1 className="text-2xl md:text-5xl font-bold mb-4 text-black">
-              iPhone 16 Pro
-            </h1>
-            <p className="text-lg md:text-xl mb-6 text-black">
-              Hello, Apple Intelligence.
+          <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center bg-gray-100">
+            <div className="flex items-center">
+              <div className="relative  h-5 w-5 sm:h-6 sm:w-6 md:h-10 md:w-10">
+                <Image
+                  src="/assets/apple-logo.png"
+                  alt="hero"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <h1 className="text-2xl md:text-5xl font-bold  text-black">
+                WATCH
+              </h1>
+            </div>
+
+            <p className="text-lg md:text-xl  text-black font-semibold mb-2">
+              SERIES 10
             </p>
-            <div className="flex gap-8">
-              <button className="px-6 py-3 bg-blue-800 text-white text-base rounded-3xl">
-                Stream now
+            <p className="text-lg md:text-3xl text-black mb-6 text-nowrap ">
+              Thinstant classic
+            </p>
+            <div className="flex gap-8 mb-12">
+              <button className="px-6 py-1 bg-blue-800 text-white text-base rounded-full text-nowrap">
+                Learn more
               </button>
-              <button className="px-6 py-3 text-white text-lg rounded-3xl border-2 border-blue-700">
+              <button className="px-6 py-1 text-blue-700 text-lg rounded-3xl border-2 border-blue-700">
                 Buy
               </button>
             </div>
             <Image
               src="/assets/watch.jpg"
               alt="hero"
-              width={400}
-              height={400}
+              width={1000}
+              height={1000}
+              className="mix-blend-multiply"
             />
           </div>
         </div>
 
-        <div className="relative  h-screen bg-gradient-to-b from-lime-600   to-blue-200">
+        <div className="relative bg-white h-screen">
           {/* Overlay Content */}
-          <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center bg-black bg-opacity-50">
-            <h1 className="text-2xl md:text-5xl font-bold mb-4">
-              iPhone 16 Pro
-            </h1>
-            <p className="text-lg md:text-xl mb-6">
-              Hello, Apple Intelligence.
+          <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center bg-gray-100">
+            <div className="flex items-center">
+              <div className="relative  h-5 w-5 sm:h-6 sm:w-6 md:h-10 md:w-10">
+                <Image
+                  src="/assets/apple-logo.png"
+                  alt="hero"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <h1 className="text-2xl md:text-5xl font-bold  text-black">
+                WATCH
+              </h1>
+            </div>
+
+            <p className="text-lg md:text-xl  text-black font-semibold mb-2">
+              SERIES 10
             </p>
-            <div className="flex gap-8">
-              <button className="px-6 py-3 bg-blue-800 text-white text-base rounded-3xl">
-                Stream now
+            <p className="text-lg md:text-3xl text-black mb-6 text-nowrap ">
+              Thinstant classic
+            </p>
+            <div className="flex gap-8 mb-12">
+              <button className="px-6 py-1 bg-blue-800 text-white text-base rounded-full text-nowrap">
+                Learn more
               </button>
-              <button className="px-6 py-3 text-white text-lg rounded-3xl border-2 border-blue-700">
+              <button className="px-6 py-1 text-blue-700 text-lg rounded-3xl border-2 border-blue-700">
                 Buy
               </button>
             </div>
             <Image
-              src="/assets/iphone3.jpg"
+              src="/assets/watch.jpg"
               alt="hero"
-              width={200}
-              height={200}
+              width={1000}
+              height={1000}
+              className="mix-blend-multiply"
             />
           </div>
         </div>
 
-        <div className="relative h-screen bg-gradient-to-b from-blue-900  to-blue-200">
+        <div className="relative bg-white h-screen">
           {/* Overlay Content */}
-          <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center bg-black bg-opacity-50">
-            <h1 className="text-2xl md:text-5xl font-bold mb-4">
-              iPhone 16 Pro
-            </h1>
-            <p className="text-lg md:text-xl mb-6">
-              Hello, Apple Intelligence.
+          <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center bg-gray-100">
+            <div className="flex items-center">
+              <div className="relative  h-5 w-5 sm:h-6 sm:w-6 md:h-10 md:w-10">
+                <Image
+                  src="/assets/apple-logo.png"
+                  alt="hero"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <h1 className="text-2xl md:text-5xl font-bold  text-black">
+                WATCH
+              </h1>
+            </div>
+
+            <p className="text-lg md:text-xl  text-black font-semibold mb-2">
+              SERIES 10
             </p>
-            <div className="flex gap-8">
-              <button className="px-6 py-3 bg-blue-800 text-white text-base rounded-3xl">
-                Stream now
+            <p className="text-lg md:text-3xl text-black mb-6 text-nowrap ">
+              Thinstant classic
+            </p>
+            <div className="flex gap-8 mb-12">
+              <button className="px-6 py-1 bg-blue-800 text-white text-base rounded-full text-nowrap">
+                Learn more
               </button>
-              <button className="px-6 py-3 text-white text-lg rounded-3xl border-2 border-blue-700">
+              <button className="px-6 py-1 text-blue-700 text-lg rounded-3xl border-2 border-blue-700">
                 Buy
               </button>
             </div>
             <Image
-              src="/assets/iphone3.jpg"
+              src="/assets/watch.jpg"
               alt="hero"
-              width={200}
-              height={200}
+              width={1000}
+              height={1000}
+              className="mix-blend-multiply"
             />
           </div>
         </div>
 
-        <div className="relative  h-screen bg-gradient-to-b from-lime-600   to-blue-200">
+        <div className="relative bg-white h-screen">
           {/* Overlay Content */}
-          <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center bg-black bg-opacity-50">
-            <h1 className="text-2xl md:text-5xl font-bold mb-4">
-              iPhone 16 Pro
-            </h1>
-            <p className="text-lg md:text-xl mb-6">
-              Hello, Apple Intelligence.
+          <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center bg-gray-100">
+            <div className="flex items-center">
+              <div className="relative  h-5 w-5 sm:h-6 sm:w-6 md:h-10 md:w-10">
+                <Image
+                  src="/assets/apple-logo.png"
+                  alt="hero"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <h1 className="text-2xl md:text-5xl font-bold  text-black">
+                WATCH
+              </h1>
+            </div>
+
+            <p className="text-lg md:text-xl  text-black font-semibold mb-2">
+              SERIES 10
             </p>
-            <div className="flex gap-8">
-              <button className="px-6 py-3 bg-blue-800 text-white text-base rounded-3xl">
-                Stream now
+            <p className="text-lg md:text-3xl text-black mb-6 text-nowrap ">
+              Thinstant classic
+            </p>
+            <div className="flex gap-8 mb-12">
+              <button className="px-6 py-1 bg-blue-800 text-white text-base rounded-full text-nowrap">
+                Learn more
               </button>
-              <button className="px-6 py-3 text-white text-lg rounded-3xl border-2 border-blue-700">
+              <button className="px-6 py-1 text-blue-700 text-lg rounded-3xl border-2 border-blue-700">
                 Buy
               </button>
             </div>
             <Image
-              src="/assets/iphone3.jpg"
+              src="/assets/watch.jpg"
               alt="hero"
-              width={200}
-              height={200}
+              width={1000}
+              height={1000}
+              className="mix-blend-multiply"
             />
           </div>
         </div>
 
-        <div className="relative h-screen bg-gradient-to-b from-blue-900  to-blue-200">
-          {/* Overlay Content */}
-          <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center bg-black bg-opacity-50">
-            <h1 className="text-2xl md:text-5xl font-bold mb-4">
-              iPhone 16 Pro
-            </h1>
-            <p className="text-lg md:text-xl mb-6">
-              Hello, Apple Intelligence.
+        <div className="relative bg-white h-screen">
+          <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center bg-gray-100">
+            <div className="flex items-center">
+              <div className="relative  h-5 w-5 sm:h-6 sm:w-6 md:h-10 md:w-10">
+                <Image
+                  src="/assets/apple-logo.png"
+                  alt="hero"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <h1 className="text-2xl md:text-5xl font-bold  text-black">
+                WATCH
+              </h1>
+            </div>
+
+            <p className="text-lg md:text-xl  text-black font-semibold mb-2">
+              SERIES 10
             </p>
-            <div className="flex gap-8">
-              <button className="px-6 py-3 bg-blue-800 text-white text-base rounded-3xl">
-                Stream now
+            <p className="text-lg md:text-3xl text-black mb-6 text-nowrap ">
+              Thinstant classic
+            </p>
+            <div className="flex gap-8 mb-12">
+              <button className="px-6 py-1 bg-blue-800 text-white text-base rounded-full text-nowrap">
+                Learn more
               </button>
-              <button className="px-6 py-3 text-white text-lg rounded-3xl border-2 border-blue-700">
+              <button className="px-6 py-1 text-blue-700 text-lg rounded-3xl border-2 border-blue-700">
                 Buy
               </button>
             </div>
             <Image
-              src="/assets/iphone3.jpg"
+              src="/assets/watch.jpg"
               alt="hero"
-              width={200}
-              height={200}
+              width={1000}
+              height={1000}
+              className="mix-blend-multiply"
             />
           </div>
         </div>
 
-        <div className="relative  h-screen bg-gradient-to-b from-lime-600   to-blue-200">
-          {/* Overlay Content */}
-          <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center bg-black bg-opacity-50">
-            <h1 className="text-2xl md:text-5xl font-bold mb-4">
-              iPhone 16 Pro
-            </h1>
-            <p className="text-lg md:text-xl mb-6">
-              Hello, Apple Intelligence.
+        <div className="relative bg-white h-screen">
+          <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center bg-gray-100">
+            <div className="flex items-center">
+              <div className="relative  h-5 w-5 sm:h-6 sm:w-6 md:h-10 md:w-10">
+                <Image
+                  src="/assets/apple-logo.png"
+                  alt="hero"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <h1 className="text-2xl md:text-5xl font-bold  text-black">
+                WATCH
+              </h1>
+            </div>
+
+            <p className="text-lg md:text-xl  text-black font-semibold mb-2">
+              SERIES 10
             </p>
-            <div className="flex gap-8">
-              <button className="px-6 py-3 bg-blue-800 text-white text-base rounded-3xl">
-                Stream now
+            <p className="text-lg md:text-3xl text-black mb-6 text-nowrap ">
+              Thinstant classic
+            </p>
+            <div className="flex gap-8 mb-12">
+              <button className="px-6 py-1 bg-blue-800 text-white text-base rounded-full text-nowrap">
+                Learn more
               </button>
-              <button className="px-6 py-3 text-white text-lg rounded-3xl border-2 border-blue-700">
+              <button className="px-6 py-1 text-blue-700 text-lg rounded-3xl border-2 border-blue-700">
                 Buy
               </button>
             </div>
             <Image
-              src="/assets/iphone3.jpg"
+              src="/assets/watch.jpg"
               alt="hero"
-              width={200}
-              height={200}
+              width={1000}
+              height={1000}
+              className="mix-blend-multiply"
             />
           </div>
         </div>

@@ -10,7 +10,9 @@ export default function Home() {
     <Fragment>
       <Nav />
       <HeroSection />
-      <Iphone />
+      <div className="mt-4">
+        <Iphone />
+      </div>
       <Products />
     </Fragment>
   );
