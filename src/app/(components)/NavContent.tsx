@@ -1,6 +1,9 @@
 import React, { Fragment } from "react";
+type NavContentProps = {
+  hoveredItem: "Store" | "Mac" | "Iphone" | "Watch" | "Vision" | "AirPods";
+};
 
-export default function NavContent({ hoveredItem }: any) {
+export default function NavContent({ hoveredItem }: NavContentProps) {
   return (
     <Fragment>
       <div className="bg-[#161617CC]">

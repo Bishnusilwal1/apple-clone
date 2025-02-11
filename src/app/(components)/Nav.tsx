@@ -3,13 +3,15 @@ import React, { Fragment, useState } from "react";
 import Image from "next/image";
 import { AppWindow, Menu, Search, X } from "lucide-react";
 import NavContent from "./NavContent";
-
+type HoveredItem = "Store" | "Mac" | "Iphone" | "Watch" | "Vision" | "AirPods";
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [hoveredItem, setHoveredItem] = useState("");
+
   const [isHoveredSearch, setIsHoveredSearch] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
-
+  const [hoveredItem, setHoveredItem] = React.useState<HoveredItem | string>(
+    ""
+  );
   const toggleMenu = () => {
     setIsMenuOpen((prev) => !prev);
   };
@@ -111,7 +113,7 @@ export default function Nav() {
         </div>
       </div>
 
-      <NavContent hoveredItem={hoveredItem} />
+      <NavContent hoveredItem={hoveredItem as HoveredItem} />
 
       {/* Mobile Dropdown Menu */}
       <div
